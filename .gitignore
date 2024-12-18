@@ -1,0 +1,51 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+*.cover
+*.tox
+*.nox
+*.coverage
+*.hypothesis/
+
+# Build directories
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Django migrations (if using Django)
+*.log
+*.sqlite3
+db.sqlite3
+media/
+
+# Environment variable files
+.env
+.env.*
+
+# Docker files
+.dockerignore
+Dockerfile
+
+# excel files
+*.xlsx
+*.xlsx#
